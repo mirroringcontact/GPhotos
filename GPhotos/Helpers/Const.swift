@@ -76,7 +76,7 @@ internal struct Google {
     }
     
     static internal var plistDict: NSDictionary = {
-        if let path = Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist"),
+        if let path = Bundle.main.path(forResource: "GooglePhotos-Info", ofType: "plist"),
             let dict = NSDictionary(contentsOfFile: path) {
             return dict
         }
